@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+ul li {
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+}
+
+li {
+}

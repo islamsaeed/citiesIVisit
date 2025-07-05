@@ -1,0 +1,13 @@
+.nav {
+}
+
+ul li {
+  text-decoration: none;
+  display: inline-flex;
+
+  gap: 10px;
+  text-align: center;
+}
+
+li {
+}

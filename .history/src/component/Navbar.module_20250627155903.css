@@ -1,0 +1,21 @@
+.nav {
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+
+  list-style: none;
+  background-color: #eee;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  padding: 5px 0;
+}
+
+li a.active {
+  color: yellow;
+}

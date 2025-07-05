@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  background-color: #eee;
+}
+
+li {
+  padding: 5px 10px;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+li a.active {
+  color: yellow;
+}

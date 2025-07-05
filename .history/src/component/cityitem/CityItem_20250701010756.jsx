@@ -1,0 +1,11 @@
+import React from "react";
+import styles from "./CityItem.module.css";
+function CityItem({ city }) {
+  return (
+    <div className={styles.cityItem}>
+      <span>{city.cityName}s</span>
+    </div>
+  );
+}
+
+export default CityItem;
