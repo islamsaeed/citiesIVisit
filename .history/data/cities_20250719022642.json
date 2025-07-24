@@ -1,0 +1,292 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "e06e",
+      "cityName": "La Calzada de Calatrava",
+      "country": "Spain",
+      "date": "7/19/2025",
+      "notes": "",
+      "emoji": "🇪🇸",
+      "position": {
+        "mapLat": "38.667675895046564",
+        "mapLng": "-3.651444699360614"
+      }
+    },
+    {
+      "id": "d726",
+      "cityName": "La Calzada de Calatrava",
+      "country": "Spain",
+      "date": "7/19/2025",
+      "notes": "jhgk",
+      "emoji": "🇪🇸",
+      "position": {
+        "mapLat": "38.667675895046564",
+        "mapLng": "-3.651444699360614"
+      }
+    },
+    {
+      "id": "e6cd",
+      "cityName": "La Calzada de Calatrava",
+      "country": "Spain",
+      "date": "7/19/2025",
+      "notes": "jhgk",
+      "emoji": "🇪🇸",
+      "position": {
+        "mapLat": "38.667675895046564",
+        "mapLng": "-3.651444699360614"
+      }
+    },
+    {
+      "id": "54ab",
+      "cityName": "Montejo de Tiermes",
+      "country": "Spain",
+      "date": "7/19/2025",
+      "notes": "rtet",
+      "emoji": "🇪🇸",
+      "position": {
+        "mapLat": "41.34146787066496",
+        "mapLng": "-3.209205085371045"
+      }
+    },
+    {
+      "id": "5601",
+      "cityName": "Maulay",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "7/19/2025",
+      "notes": "",
+      "position": {
+        "mapLat": "46.97850512740355",
+        "mapLng": "0.21972656250000003"
+      }
+    },
+    {
+      "id": "b9ce",
+      "cityName": "Laurie",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "7/19/2025",
+      "notes": "rytty",
+      "position": {
+        "mapLat": "45.30226613757574",
+        "mapLng": "3.0761718750000004"
+      }
+    },
+    {
+      "id": "8edc",
+      "cityName": "Arlanc",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "45.411117244604135",
+        "mapLng": "3.6914062500000004"
+      }
+    },
+    {
+      "id": "1056",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "67e6",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "1fc8",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "c0b9",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "b39f",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "4f3e",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "4f49",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "173c",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "b769",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "9fda",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "e750",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "2698",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "382c",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    },
+    {
+      "id": "e32b",
+      "cityName": "Baelen",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "7/19/2025",
+      "notes": "ryttyrttrtr",
+      "position": {
+        "mapLat": "50.59641808313496",
+        "mapLng": "5.976562500000001"
+      }
+    }
+  ]
+}
