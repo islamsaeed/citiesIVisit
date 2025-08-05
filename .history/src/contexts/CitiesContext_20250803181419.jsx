@@ -3,6 +3,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useMemo,
   useReducer,
 } from "react";
 
@@ -96,29 +97,29 @@ function CitiesProvider({ children }) {
     }, 2000);
   }, []);
 
-  const getCity = useCallback(
-    () =>
-      async function getCity(id) {
-        if (Number(id) === currentCity.id) return;
-        dispatch({ type: "loading" });
-        try {
-          const response = await fetch(`${BASE_URL}/cities/${id}`);
-          const currentCity = await response.json();
+  // const getCity = useCallback(
+  //   () =>
+  async function getCity(id) {
+    if (Number(id) === currentCity.id) return;
+    dispatch({ type: "loading" });
+    try {
+      const response = await fetch(`${BASE_URL}/cities/${id}`);
+      const currentCity = await response.json();
 
-          dispatch({ type: "city/loaded", payload: currentCity });
-          if (!response.ok) {
-            throw new Error(`failed to  fetch  current city wrong ${id}`);
-          }
-        } catch (error) {
-          dispatch({
-            type: "rejected",
-            payload: `failed to fetch current city ${error.message}`,
-          });
-        }
-      },
+      dispatch({ type: "city/loaded", payload: currentCity });
+      if (!response.ok) {
+        throw new Error(`failed to  fetch  current city wrong ${id}`);
+      }
+    } catch (error) {
+      dispatch({
+        type: "rejected",
+        payload: `failed to fetch current city ${error.message}`,
+      });
+    }
+  }
 
-    [currentCity.id]
-  );
+  //   [currentCity.id]
+  // );
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });

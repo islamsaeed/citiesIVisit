@@ -1,8 +1,8 @@
 import {
   createContext,
-  useCallback,
   useContext,
   useEffect,
+  useMemo,
   useReducer,
 } from "react";
 
@@ -96,7 +96,7 @@ function CitiesProvider({ children }) {
     }, 2000);
   }, []);
 
-  const getCity = useCallback(
+  const getCity = useMemo(
     () =>
       async function getCity(id) {
         if (Number(id) === currentCity.id) return;
@@ -117,7 +117,7 @@ function CitiesProvider({ children }) {
         }
       },
 
-    [currentCity.id]
+    []
   );
 
   async function createCity(newCity) {

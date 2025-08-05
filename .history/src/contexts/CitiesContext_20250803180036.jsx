@@ -1,10 +1,4 @@
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useReducer,
-} from "react";
+import { createContext, useContext, useEffect, useReducer } from "react";
 
 const BASE_URL = "http://localhost:9000";
 
@@ -96,29 +90,24 @@ function CitiesProvider({ children }) {
     }, 2000);
   }, []);
 
-  const getCity = useCallback(
-    () =>
-      async function getCity(id) {
-        if (Number(id) === currentCity.id) return;
-        dispatch({ type: "loading" });
-        try {
-          const response = await fetch(`${BASE_URL}/cities/${id}`);
-          const currentCity = await response.json();
+  async function getCity(id) {
+    if (Number(id) === currentCity.id) return;
+    dispatch({ type: "loading" });
+    try {
+      const response = await fetch(`${BASE_URL}/cities/${id}`);
+      const currentCity = await response.json();
 
-          dispatch({ type: "city/loaded", payload: currentCity });
-          if (!response.ok) {
-            throw new Error(`failed to  fetch  current city wrong ${id}`);
-          }
-        } catch (error) {
-          dispatch({
-            type: "rejected",
-            payload: `failed to fetch current city ${error.message}`,
-          });
-        }
-      },
-
-    [currentCity.id]
-  );
+      dispatch({ type: "city/loaded", payload: currentCity });
+      if (!response.ok) {
+        throw new Error(`failed to  fetch  current city wrong ${id}`);
+      }
+    } catch (error) {
+      dispatch({
+        type: "rejected",
+        payload: `failed to fetch current city ${error.message}`,
+      });
+    }
+  }
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });

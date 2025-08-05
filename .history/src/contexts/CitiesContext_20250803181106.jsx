@@ -3,6 +3,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useMemo,
   useReducer,
 } from "react";
 
@@ -117,7 +118,7 @@ function CitiesProvider({ children }) {
         }
       },
 
-    [currentCity.id]
+    []
   );
 
   async function createCity(newCity) {

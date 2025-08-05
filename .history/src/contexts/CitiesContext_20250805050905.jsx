@@ -3,6 +3,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+lazy
   useReducer,
 } from "react";
 

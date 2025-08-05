@@ -3,8 +3,6 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router";
 import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext.jsx";
 import ProtectedRoute from "./pages/ProtectedRoute.jsx";
-import SpinnerFullPage from "./component/spinnerfullpage/SpinnerFullPage.jsx";
-
 // Importing necessary components and pages
 // import Pricing from "./pages/Pricing.jsx";
 // import HomePage from "./pages/HomePage.jsx";
@@ -24,6 +22,7 @@ import CityList from "./component/citylist/CityList.jsx";
 import CountryList from "./component/countrieslist/CountryList.jsx";
 import City from "./component/city/City.jsx";
 import Form from "./component/form/Form.jsx";
+import SpinnerFullPage from "./component/spinnerfullpage/SpinnerFullPage.jsx";
 
 function App() {
   return (
